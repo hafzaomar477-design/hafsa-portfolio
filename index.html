@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hafsa Mohyadin — Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Hafsa Mohyadin — software engineer building apps, websites, web applications, and systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="logo" href="#home">HM</a>
+      <input id="nav-toggle" type="checkbox" hidden />
+      <label class="nav-burger" for="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav class="nav-links">
+        <a href="#home" onclick="document.getElementById('nav-toggle').checked=false">Home</a>
+        <a href="#profile" onclick="document.getElementById('nav-toggle').checked=false">Profile</a>
+        <a href="#about" onclick="document.getElementById('nav-toggle').checked=false">About</a>
+        <a href="#services" onclick="document.getElementById('nav-toggle').checked=false">Services</a>
+        <a href="#projects" onclick="document.getElementById('nav-toggle').checked=false">Projects</a>
+        <a href="#skills" onclick="document.getElementById('nav-toggle').checked=false">Skills</a>
+        <a class="nav-cta" href="#contact" onclick="document.getElementById('nav-toggle').checked=false">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <p class="eyebrow">Software Engineer · Product-minded builder</p>
+        <h1>Hafsa Mohyadin</h1>
+        <p class="hero-lead">
+          I design and ship precise digital products — from mobile apps to
+          full-scale systems — with a bias for clarity, speed, and craft.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View work</a>
+          <a class="btn btn-ghost" href="#contact">Let’s talk</a>
+        </div>
+      </section>
+
+      <section id="profile" class="section profile">
+        <div class="profile-frame">
+        <div class="profile-ring" style="width: 280px; height: 280px; overflow: hidden; border-radius: 50%;">
+    <img src="my_photo.jpg" alt="Hafsa Mohyadin" style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+          </div>
+        </div>
+        <div class="profile-copy">
+          <p class="eyebrow">Profile</p>
+          <h2>Building interfaces that feel inevitable.</h2>
+          <p>
+            I work at the intersection of engineering and design: clean
+            architecture, thoughtful UX, and delivery you can trust in
+            production.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-head">
+          <p class="eyebrow">About Me</p>
+          <h2>Calm systems. Sharp details.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass about-card">
+            <h3>Who I am</h3>
+            <p>
+              I’m Hafsa, a software engineer who cares as much about how a
+              product feels as how it scales. I turn messy requirements into
+              structured, shippable software.
+            </p>
+          </article>
+          <article class="glass about-card">
+            <h3>How I work</h3>
+            <p>
+              Small loops, strong defaults, and honest communication. I
+              prototype quickly, refine with intent, and keep the stack as
+              simple as the problem allows.
+            </p>
+          </article>
+          <article class="glass about-card">
+            <h3>What I value</h3>
+            <p>
+              Readable code, accessible interfaces, and experiences that stay
+              fast on every device. Premium doesn’t mean noisy — it means
+              considered.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Services</p>
+          <h2>What I can build for you</h2>
+        </div>
+        <div class="card-grid services-grid">
+          <article class="glass service-card">
+            <span class="icon">01</span>
+            <h3>Apps</h3>
+            <p>
+              Native-feeling mobile experiences with smooth motion, offline
+              resilience, and product logic that stays maintainable.
+            </p>
+          </article>
+          <article class="glass service-card">
+            <span class="icon">02</span>
+            <h3>Website</h3>
+            <p>
+              High-conversion marketing and portfolio sites with cinematic
+              visuals, tight typography, and performance-first structure.
+            </p>
+          </article>
+          <article class="glass service-card">
+            <span class="icon">03</span>
+            <h3>Web Applications</h3>
+            <p>
+              Dashboards, auth flows, and interactive tools — designed for
+              real users, not just happy-path demos.
+            </p>
+          </article>
+          <article class="glass service-card">
+            <span class="icon">04</span>
+            <h3>Systems</h3>
+            <p>
+              APIs, data models, and integrations that keep products coherent
+              as they grow — secure, observable, and documented.
+            </p>
+          </article>
+        </div>
+      </section>
+<section id="projects" class="section">
+    <div class="section-head">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work</h2>
+    </div>
+    <div class="card-grid projects-grid">
+        <!-- Project 1 -->
+        <article class="glass project-card">
+            <div class="project-visual v1">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop" alt="Northstar Ops">
+            </div>
+            <div class="project-body">
+                <p class="tag">Web Application</p>
+                <h3>Northstar Ops</h3>
+                <p>An operations console that turns live metrics into calm, actionable views for growing teams.</p>
+            </div>
+        </article>
+
+        <!-- Project 2: Project Dashboard -->
+        <article class="glass project-card">
+            <div class="project-visual v4">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop" alt="Project Dashboard">
+            </div>
+            <div class="project-body">
+                <p class="tag">Dashboard & Analytics</p>
+                <h3>Project Dashboard</h3>
+                <p>A central management hub for tracking real-time project status, resource allocation, and team performance metrics.</p>
+            </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="glass project-card">
+            <div class="project-visual v2">
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1000&auto=format&fit=crop" alt="Lumen Focus">
+            </div>
+            <div class="project-body">
+                <p class="tag">Mobile App</p>
+                <h3>Lumen Focus</h3>
+                <p>A focus companion with haptic-light rituals, local-first data, and a deliberately quiet UI.</p>
+            </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="glass project-card">
+            <div class="project-visual v3">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop" alt="Relay Ledger">
+            </div>
+            <div class="project-body">
+                <p class="tag">System</p>
+                <h3>Relay Ledger</h3>
+                <p>Event-driven billing backbone with idempotent writes and a crystal-clear audit trail.</p>
+            </div>
+        </article>
+    </div>
+</section>
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I reach for</h2>
+        </div>
+        <ul class="skills">
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>REST APIs</li>
+          <li>UI Systems</li>
+          <li>Responsive CSS</li>
+          <li>Git</li>
+          <li>Testing</li>
+          <li>Product Design</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-head">
+          <p class="eyebrow">Contact Me</p>
+          <h2>Start a conversation</h2>
+          <p>
+            Tell me about the product, the constraint, and the deadline. I’ll
+            reply with a clear next step.
+          </p>
+        </div>
+        <form class="glass contact-form" action="#contact" method="get">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@studio.com" required />
+          </label>
+          <label class="full">
+            Message
+            <textarea name="message" rows="5" placeholder="What should we build?" required></textarea>
+          </label>
+          <button class="btn btn-primary glossy" type="submit">Send message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Hafsa Mohyadin. Crafted with intention.</p>
+    </footer>
+  </body>
+</html>
